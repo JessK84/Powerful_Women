@@ -1,0 +1,42 @@
+.card{
+    width:325px;
+    height:540px;
+    background-color:crimson;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+    .card-content{
+        transition: all 0.3s ease-in;
+        position: absolute;
+        bottom:0;
+        left:32px;
+        z-index:1;
+        width:261px;
+        height:30%;
+        background-color:white;
+        box-shadow: 5px 5px 23px -12px rgba(0,0,0,0.75);
+
+        .card-icon{
+            z-index:15;
+            position:absolute;
+            bottom: 0px;
+            right:0px;
+            width:37px;
+            height: 37px;
+            background-color:#3bb7ac;
+            padding:3px;
+            text-align: center;
+            box-sizing: border-box;
+            .fas{
+                &.fa-times{
+                    color:white;
+                    font-size:30px;
+                }
+            }
+        }
+    }
+    img.card-img{
+        height:540px;
+    }
+    
+}
